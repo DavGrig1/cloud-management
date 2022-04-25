@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4
+  }
+  button {
+    @apply bg-indigo-600 text-white rounded-md transition-all hover:bg-indigo-800
+  }
+}
