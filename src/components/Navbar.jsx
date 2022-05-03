@@ -15,19 +15,19 @@ export const Navbar = (props) => {
 			<div className='flex items-center'>
 				<h1 className='text-3xl font-bold mr-6 md:text-4xl'>BRAND</h1>
 				<ul className='hidden md:flex'>
-					<li className=' text-lg '>
+					<li className=' text-lg cursor-pointer'>
 						<Link to='home' smooth={true} duration={500}>Home</Link>
 					</li>
-					<li className=' text-lg '>
+					<li className=' text-lg cursor-pointer'>
 						<Link to='about' smooth={true} offset={-200} duration={500}>About</Link>
 					</li>
-					<li className=' text-lg '>
+					<li className=' text-lg cursor-pointer'>
 						<Link to='support' smooth={true} offset={-50} duration={500}>Support</Link>
 					</li>
-					<li className=' text-lg '>
+					<li className=' text-lg cursor-pointer'>
 						<Link to='platforms' smooth={true} offset={-100} duration={500}>Platforms</Link>
 					</li>
-					<li className=' text-lg '>
+					<li className=' text-lg cursor-pointer'>
 						<Link to='pricing' smooth={true} offset={-50} duration={500}>Pricing</Link>
 					</li>
 				</ul>
