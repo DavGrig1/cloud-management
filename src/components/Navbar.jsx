@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Link, animateScroll as scroll } from 'react-scroll'
+import {Link } from 'react-scroll'
 
 
 import {MenuIcon, XIcon} from '@heroicons/react/outline'
@@ -68,7 +68,7 @@ export const Navbar = (props) => {
 						return props.setTrigger(true), handleClose()
 					}} className=' px-8 py-2 mb-4 rounded-sm'>Sign Out</button>
 				</div>
-				
+
 			</ul>
 		</div>
 	</div>
