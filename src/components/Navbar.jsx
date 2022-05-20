@@ -43,19 +43,19 @@ export const Navbar = (props) => {
 		</div>
 		<div className='md:hidden'>
 			<ul className={! nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-				<li className='border-b-2 border-slate-300 w-full'>
+				<li className='border-b-2 border-slate-300 w-full cursor-pointer'>
 					<Link onClick={handleClose} to='home' smooth={true} duration={500}>Home</Link>
 				</li>
-				<li className='border-b-2 border-slate-300 w-full'>
+				<li className='border-b-2 border-slate-300 w-full cursor-pointer'>
 					<Link onClick={handleClose} to='about' smooth={true} offset={-200} duration={500}>About</Link>
 				</li>
-				<li className='border-b-2 border-slate-300 w-full'>
+				<li className='border-b-2 border-slate-300 w-full cursor-pointer'>
 					<Link onClick={handleClose} to='support' smooth={true} offset={-50} duration={500}>Support</Link>
 				</li>
-				<li className='border-b-2 border-slate-300 w-full'>
+				<li className='border-b-2 border-slate-300 w-full cursor-pointer'>
 					<Link onClick={handleClose} to='platforms' smooth={true} offset={-100} duration={500}>Platforms</Link>
 				</li>
-				<li className='border-b-2 border-slate-300 w-full'>
+				<li className='border-b-2 border-slate-300 w-full cursor-pointer'>
 					<Link onClick={handleClose} to='pricing' smooth={true} offset={-50} duration={500}>Pricing</Link>
 				</li>
 
@@ -67,8 +67,8 @@ export const Navbar = (props) => {
 					<button onClick={()=> {
 						return props.setTrigger(true), handleClose()
 					}} className=' px-8 py-2 mb-4 rounded-sm'>Sign Out</button>
-
 				</div>
+				
 			</ul>
 		</div>
 	</div>
