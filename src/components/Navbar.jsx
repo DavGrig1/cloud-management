@@ -66,7 +66,7 @@ export const Navbar = (props) => {
 											 hover:bg-indigo-600 hover:text-white '>Sign In</button>
 					<button onClick={()=> {
 						return props.setTrigger(true), handleClose()
-					}} className=' px-8 py-2 mb-4 rounded-sm'>Sign Out</button>
+					}} className=' px-8 py-2 mb-4 rounded-sm'>Sign Up</button>
 				</div>
 
 			</ul>
